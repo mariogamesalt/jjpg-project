@@ -1,7 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const app = express();
-const port = 3000;
+const port = 0.0.0.0;
 
 app.use(express.static('public')); // Serve static files from the 'public' directory
 app.use(express.json()); // To parse JSON bodies
